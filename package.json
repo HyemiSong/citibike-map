@@ -1,0 +1,23 @@
+{
+  "name": "synthetics_180830_2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3": "^5.7.0",
+    "mapbox-gl": "^0.48.0",
+    "react": "^16.4.2",
+    "react-app-rewire-less": "^2.1.2",
+    "react-app-rewired": "^1.5.2",
+    "react-dom": "^16.4.2",
+    "react-mapbox-gl": "^3.9.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
